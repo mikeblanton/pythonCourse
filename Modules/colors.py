@@ -7,4 +7,6 @@ color = input("What color? ")
 if color not in COLORS.keys():
     color = 'white'
 
+# this is a really long comment that probably should be set over a couple
+# of lines and cleaned up.
 print(colored(Figlet().renderText(text), color))
